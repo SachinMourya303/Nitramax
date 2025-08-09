@@ -1,0 +1,16 @@
+.active .hover-bar{
+   width: 100%;
+}
+.hover-bar {
+    width: 0%;
+    height: 2px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.navlinks-container .nav-links:hover {
+    .hover-bar {
+        width: 100%;
+        transition: 0.5s;
+    }
+}
